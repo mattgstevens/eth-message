@@ -1,0 +1,19 @@
+{
+  "name": "eth-message",
+  "version": "1.0.0",
+  "main": "build/index.js",
+  "license": "MIT",
+  "scripts": {
+    "build": "flow-remove-types --pretty src/ --out-dir build/",
+    "test": "flow-node src/index.test.js"
+  },
+  "devDependencies": {
+    "flow-bin": "^0.79.1",
+    "flow-remove-types": "^1.2.3",
+    "prettier": "^1.14.2",
+    "tape": "^4.9.1"
+  },
+  "dependencies": {
+    "ethereumjs-util": "^5.2.0"
+  }
+}

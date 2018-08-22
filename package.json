@@ -2,6 +2,7 @@
   "name": "eth-message",
   "version": "1.0.0",
   "main": "build/index.js",
+  "author": "mattgstevens <mattgstevens@gmail.com>",
   "license": "MIT",
   "scripts": {
     "build": "flow-remove-types --pretty src/ --out-dir build/",
